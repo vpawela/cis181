@@ -1,0 +1,32 @@
+@charset "utf-8";
+/*
+Chicago Bear Rescue Stylesheet
+*/
+
+/* CSS HEX */
+:root {
+--licorice: #291711ff;
+--dark-moss-green: #474b24ff;
+--timberwolf: #ccc5b9ff;
+--mountbatten-pink: #9e768fff;
+--cerulean: #477998ff;
+}
+
+/*HTML and Body Styles */
+html {
+	background-color: var(--timberwolf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.answer {
+    margin-bottom: 20px;
+}
