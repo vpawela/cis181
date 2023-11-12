@@ -1,0 +1,58 @@
+@charset "utf-8";
+/*
+Chicago Bear Rescue Stylesheet
+*/
+
+/* CSS HEX */
+:root {
+--licorice: #291711ff;
+--dark-moss-green: #474b24ff;
+--timberwolf: #ccc5b9ff;
+--mountbatten-pink: #9e768fff;
+--cerulean: #477998ff;
+}
+
+/*HTML and Body Styles */
+html {
+	background-color: var(--timberwolf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+header {
+    position: relative;
+    height: 300px;
+    background-image: url("faq-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    color: var(--licorice);
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.question {
+    font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 7px;
+	color: var(--dark-moss-green);
+}
+
+.answer {
+	margin-left: 10px;
+    margin-bottom: 25px;
+	color: var(--dark-moss-green);
+}
