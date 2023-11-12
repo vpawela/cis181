@@ -23,10 +23,36 @@ body {
     padding: 20px;
 }
 
+header {
+    position: relative;
+    height: 300px;
+    background-image: url("faq-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    color: var(--licorice);
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
 .question {
     font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 7px;
+	color: var(--dark-moss-green);
 }
 
 .answer {
-    margin-bottom: 20px;
+	margin-left: 10px;
+    margin-bottom: 25px;
+	color: var(--dark-moss-green);
 }
